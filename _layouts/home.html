@@ -1,0 +1,19 @@
+---
+layout: none
+---
+{
+  "title": {{ site.title | smartify | jsonify }},
+  "home_page_url": {{ base | smartify | jsonify }},
+  "created_on": {{ site.time | jsonify }},
+  "pages": [
+    {% for page in site.pages %}{
+      "title": {{ page.title | smartify | jsonify }},
+      "updated_on": {{ page.date | jsonify }},
+      "summary": {{ page.excerpt | jsonify }},
+      "categories": {{ page.categories | jsonify }},
+      "url": {{ page.url | jsonify }},
+      "next": {{ page.next | jsonify }},
+      "previous": {{ page.previous | jsonify }}
+    }{% unless forloop.last == true %}, {% endunless %}{% endfor %}
+  ]
+}

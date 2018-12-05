@@ -1,0 +1,13 @@
+---
+layout: none
+---
+{
+  "title": {{ page.title | smartify | jsonify }},
+  "updated_on": {{ page.date | jsonify }},
+  "summary": {{ page.excerpt | jsonify }},
+  "categories": {{ page.categories | jsonify | smartify }},
+  "url": {{ page.url | jsonify }},
+  "next": {{ page.next | jsonify }},
+  "previous": {{ page.previous | jsonify }},
+  "content": {{ page.content | smartify | jsonify }}
+}

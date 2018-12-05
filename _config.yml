@@ -1,0 +1,19 @@
+# Website information
+title: Blockchain Workbench
+description: >-
+  Multiline
+  description
+  here
+baseurl: ""
+url: ""
+github_username:  blockchainworkbench
+
+# Build settings
+markdown: kramdown
+plugins: []
+
+exclude:
+  - vendor/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
