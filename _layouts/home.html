@@ -1,12 +1,14 @@
 ---
 layout: none
 ---
+{%- assign pages = site.pages | pages_only -%}
 {
   "title": {{ site.title | smartify | jsonify }},
   "home_page_url": {{ base | smartify | jsonify }},
   "created_on": {{ site.time | jsonify }},
   "pages": [
-    {% for page in site.pages %}{
+    {%- for page in pages -%}
+    {
       "title": {{ page.title | smartify | jsonify }},
       "updated_on": {{ page.date | jsonify }},
       "summary": {{ page.excerpt | jsonify }},
@@ -14,6 +16,8 @@ layout: none
       "url": {{ page.url | jsonify }},
       "next": {{ page.next | jsonify }},
       "previous": {{ page.previous | jsonify }}
-    }{% unless forloop.last == true %}, {% endunless %}{% endfor %}
+    }
+    {%- unless forloop.last == true -%}, {%- endunless -%}
+    {% endfor %}
   ]
 }
