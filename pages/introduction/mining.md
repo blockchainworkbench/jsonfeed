@@ -1,0 +1,18 @@
+---
+title: Mining
+layout: page
+categories:
+  - introduction
+next:
+  - /pages/introduction/collision.html
+previous:
+  - /pages/introduction/mempool.html
+difficulty: easy
+---
+
+# Mining
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi imperdiet quam ut fermentum fermentum. Sed bibendum nisi id ex molestie consequat. Duis a turpis nec libero vulputate tincidunt in in nibh. Etiam malesuada finibus leo, sit amet tincidunt augue convallis accumsan. Vestibulum venenatis dolor in felis dictum, nec sollicitudin quam blandit. In accumsan nibh non magna convallis, quis euismod nunc feugiat. 
+
+Sed ipsum nisi, tincidunt quis neque ut, imperdiet ullamcorper neque. Nam vel lectus ut nibh venenatis efficitur in vel dolor. Maecenas vel urna eu erat aliquam eleifend. Nulla sem enim, rhoncus non velit nec, posuere varius arcu. Phasellus fermentum nunc diam, sed accumsan lacus pulvinar ac. Suspendisse quis mollis felis. Integer magna erat, dictum quis placerat vitae, eleifend et quam. Integer ligula arcu, tincidunt in neque id, faucibus mollis elit. 
+

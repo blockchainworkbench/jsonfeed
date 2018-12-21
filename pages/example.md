@@ -4,6 +4,13 @@ layout: page
 categories:
   - ethereum
   - functions
+previous:
+  - 
+  - /pages/fn01.html
+next:
+  - /pages/introduction/smartcontract.html
+  - /pages/fn03.html
+difficulty: medium
 ---
 
 # Calls and Returns
